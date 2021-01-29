@@ -58,7 +58,8 @@ class UniversalMonitor:
           xPathVal = xPathNode[0].text_content()
           if xPathVal != self.updated_xpath_value:
             self.updated_xpath_value = xPathVal
-            self.send_text_message(xPathVal)
+            if self.current_task.should_send_sms:
+              self.send_text_message(xPathVal)
             print('Found New Value: ', xPathVal)
       except Exception as e:
         print('Error getting website: ', e)

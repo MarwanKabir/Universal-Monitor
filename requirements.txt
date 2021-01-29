@@ -1,0 +1,13 @@
+certifi
+chardet
+docopt
+idna
+lxml
+pipreqs
+PyJWT
+pytz
+requests
+six
+twilio
+urllib3
+yarg
