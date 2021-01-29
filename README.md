@@ -28,9 +28,13 @@ Commands
 	 - lists all the tasks
 
 task_id -> name of tasks
+
 url -> url that should be checked
+
 xpath_value -> xpath of what you want to check
+
 should_send_sms -> true or false if you want to be sent texts
+
 check_delay -> how often should checks happen
 
 ### Example News Monitor
