@@ -9,7 +9,7 @@ This project was created because I like keeping up to date with news and events 
 ### Install and run
 ```bash
 $ git clone https://github.com/MarwanKabir/Universal-Monitor.git
-$ cd clone Universal-Monitor
+$ cd Universal-Monitor
 $ python -m venv monitor_env
 $ source monitor_env/bin/activate
 $ pip install -r requirements.txt
