@@ -52,14 +52,12 @@ This checks the website every 3 seconds and checks when the "Last Updated" time 
 ![enter image description here](https://i.imgur.com/Mux1q2j.png)
 
 ### Example Time Monitor
-Monitor any important updates from the state
+This checks the website every 3 seconds and updates if the time changes. This is a very simple example but this is to demonstrate websites that change frequently.
 
 ```bash
 $ python app.py create time_website_monitor https://time.is/ "/html/body[@id='bdy']/div[@id='mainwrapper']/div[@id='time_section']/div[2]/div[@id='clock0_bg']" true 3
 $ python app.py run time_website_monitor
 ```
-
-This checks the website every 3 seconds and updates if the time changes. This is a very simple example but this is to demonstrate websites that change frequently.
 
 ![enter image description here](https://i.imgur.com/adphb29.png)
 ![enter image description here](https://i.imgur.com/fW2sGf8.png)
